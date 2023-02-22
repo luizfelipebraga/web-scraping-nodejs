@@ -2,15 +2,19 @@
   "name": "web-scrapping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "fastify": "^4.13.0",
+    "node-cache": "^5.1.2",
     "puppeteer": "^19.7.2"
   }
 }
